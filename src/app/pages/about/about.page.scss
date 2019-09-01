@@ -1,0 +1,44 @@
+.orange-background {
+  background-color: var(--opacity-color-primary);
+  color: #ffffff;
+}
+.white-background {
+  background-color: #ffffff;
+  color: var(--opacity-color-primary);
+
+  p {
+    color: var(--standard-text);
+    text-align: left;
+  }
+}
+.about-us {
+  padding: 8px;
+
+  text-align: center;
+}
+.background-img {
+  background-image: url(../../../assets/rotator_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.round-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 2px solid var(--opacity-color-primary);
+}
+.circle-count {
+  border: 2px solid #ffffff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  .icon {
+    font-size: 45px;
+    color: #ffffff;
+  }
+}

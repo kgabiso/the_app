@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-icon name="contact" class="user-icon"></ion-icon>
+    </ion-buttons>
+    <ion-title>News feeds</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let feed of newsFeeds">
+    <img src="{{ feed.img }}" />
+    <ion-card-header>
+      <ion-card-subtitle>{{ feed.subtitle }}</ion-card-subtitle>
+      <ion-card-title>{{ feed.title }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      {{ feed.content }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,1 +1,70 @@
+.logo {
+  height: 100%;
+}
+.logo-container {
+  width: auto;
+  height: 40%;
+  text-align: center;
+}
 
+.btn {
+  border-radius: 20px;
+  display: block;
+  height: 38px;
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+.btn-primary {
+  background-color: #e1a100;
+  border-color: #e1a100;
+}
+.btn-secondary {
+  background: #e1a100;
+}
+.btn-tertiary {
+  background: #e1a100;
+}
+.btn-facebook {
+  background: #3b5998;
+  border-color: #3b5998;
+  text-align: left;
+  position: relative;
+  span {
+    margin-left: 8px;
+    position: absolute;
+  }
+  .logo-facebook {
+    padding-left: 8px;
+    font-size: 25px;
+    color: #ffffff;
+  }
+}
+.btn-google {
+  background: #4285f4;
+  border-color: #4285f4;
+  text-align: left;
+  position: relative;
+  span {
+    margin-left: 8px;
+    position: absolute;
+  }
+  .logo-google {
+    padding-left: 8px;
+    font-size: 25px;
+    color: #ffffff;
+  }
+}
+.login-loader {
+  color: #e1a100;
+}
+.input-text {
+  border: 1px solid #888888;
+  border-radius: 20px;
+  padding-left: 8px !important;
+}
+.input-text:focus,
+.input-text:active {
+  border-color: #e1a100;
+}
