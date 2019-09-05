@@ -15,7 +15,7 @@ export class HomePage {
     //   console.log(loader);
     //
     // });
-    this.router.navigateByUrl('menu/first');
+    this.router.navigateByUrl('tabs');
   }
   async presentLoadingWithOptions() {
     const loading = await this.loadingController.create({
