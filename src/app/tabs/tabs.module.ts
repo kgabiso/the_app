@@ -13,9 +13,8 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       { path: 'tab1', loadChildren: '../pages/first/first.module#FirstPageModule' },
-      { path: 'tab2', loadChildren: '../pages/second/second.module#SecondPageModule' }
-
-      // { path: 'menu', loadChildren: './pages/menu/menu.module#MenuPageModule' },
+      { path: 'tab2', loadChildren: '../pages/second/second.module#SecondPageModule' },
+      { path: 'tab3', loadChildren: '../pages/pay/pay.module#PayPageModule' }
       // { path: 'contact', loadChildren: './pages/contact/contact.module#ContactPageModule' },
       // { path: 'pay', loadChildren: './pages/pay/pay.module#PayPageModule' },
       // { path: 'about', loadChildren: './pages/about/about.module#AboutPageModule' },
