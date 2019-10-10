@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 20px;
+  display: block;
+  height: 38px;
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+.btn-primary {
+  background-color: #e1a100;
+  border-color: #e1a100;
+}
+.input-text {
+  border: 1px solid #888888;
+  border-radius: 20px;
+  padding-left: 8px !important;
+}
+.input-text:focus,
+.input-text:active {
+  border-color: #e1a100;
+}

@@ -15,18 +15,22 @@
   <div class="ion-padding">
     <ion-list>
       <ion-label position="stacked">email</ion-label>
-      <ion-input placeholder="email@mail.com" class="input-text"></ion-input>
+      <ion-input placeholder="email@mail.com" class="input-text" [(ngModel)]="username"></ion-input>
 
       <ion-label position="stacked">password</ion-label>
-      <ion-input placeholder="*****" class="input-text"></ion-input>
+      <ion-input placeholder="*****" class="input-text" [(ngModel)]="password"></ion-input>
 
       <button class="btn btn-primary" (click)="login()">Login</button>
-      <button class="btn btn-primary btn-facebook" (click)="login()">
+      <button class="btn btn-primary btn-facebook" (click)="loginFacebook()">
         <ion-icon name="logo-facebook" class="logo-facebook "></ion-icon><span>Login with Facebook</span>
       </button>
-      <button class="btn btn-primary btn-google" (click)="login()">
+      <button class="btn btn-primary btn-google" (click)="loginGoogle()">
         <ion-icon name="logo-google" class="logo-google "></ion-icon><span>Login with Google</span>
       </button>
+      <div class="signUpContainer">
+        <a class="signup" (click)="signUp()">Sign up</a>
+        <a class="fPassword" (click)="fPassword()">Forgot password ?</a>
+      </div>
     </ion-list>
   </div>
 </ion-content>

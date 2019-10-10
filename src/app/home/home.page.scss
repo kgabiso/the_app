@@ -68,3 +68,15 @@
 .input-text:active {
   border-color: #e1a100;
 }
+
+.signUpContainer {
+  display: block;
+
+  .fPassword {
+    float: right;
+    color: #e1a100;
+  }
+  .signup {
+    color: #e1a100;
+  }
+}
